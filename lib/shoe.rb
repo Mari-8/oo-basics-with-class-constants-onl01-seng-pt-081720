@@ -9,6 +9,7 @@ require 'pry'
     if brand != self 
     BRANDS << brand
   end
+  end
 
   def cobble
     self.condition = "new"
