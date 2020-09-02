@@ -12,6 +12,7 @@ require 'pry'
     BRANDS << brand
     i += 1 
   end
+end
  
   end
 
