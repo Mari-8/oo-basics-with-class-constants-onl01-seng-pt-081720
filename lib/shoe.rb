@@ -6,9 +6,9 @@ require 'pry'
 
   def initialize(brand)
     @brand = brand
-    
-    until brand != self 
-    BRANDS << brand
+    if brand == self 
+      nil
+    else BRANDS << brand
     binding.pry
   end
 end
