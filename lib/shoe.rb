@@ -10,6 +10,7 @@ require 'pry'
     if brand.include?(brand)
       puts "HI"
     else 
+      BRANDS << brand
       binding.pry
   end
   BRANDS
