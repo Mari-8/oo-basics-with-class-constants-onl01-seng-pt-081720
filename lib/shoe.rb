@@ -7,9 +7,8 @@ require 'pry'
   def initialize(brand)
     dupe = []
     @brand = brand
-    if brand == self 
-      "dupe"
-    else BRANDS << brand
+    if brand != self 
+      BRANDS << brand
       binding.pry
   end
 end
