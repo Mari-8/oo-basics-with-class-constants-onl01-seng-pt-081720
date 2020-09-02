@@ -7,8 +7,10 @@ require 'pry'
   def initialize(brand)
     @brand = brand
     i = 0
+    while i < BRANDS.length
     if brand != self 
     BRANDS << brand
+    i += 1 
   end
  
   end
