@@ -10,7 +10,6 @@ require 'pry'
     until brand == self 
       BRANDS << brand
   end
-end
   BRANDS
 end
  
