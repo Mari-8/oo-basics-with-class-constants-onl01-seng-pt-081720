@@ -9,7 +9,7 @@ require 'pry'
     if brand != self 
     BRANDS << brand
   end
-  
+  binding.pry
   end
 
   def cobble
