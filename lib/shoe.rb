@@ -9,7 +9,6 @@ require 'pry'
     if brand == self 
       nil
     else BRANDS << brand
-    binding.pry
   end
 end
  
