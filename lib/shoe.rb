@@ -8,7 +8,7 @@ require 'pry'
     dupe = []
     @brand = brand
     while i = brand.length
-    if brand != self 
+    until brand == self 
       BRANDS << brand
   end
 end
