@@ -6,10 +6,11 @@ require 'pry'
 
   def initialize(brand)
     @brand = brand
+    i = 0
     if brand != self 
     BRANDS << brand
   end
-  binding.pry
+ 
   end
 
   def cobble
