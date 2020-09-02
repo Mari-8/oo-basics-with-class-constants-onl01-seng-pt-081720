@@ -8,6 +8,7 @@ require 'pry'
     @brand = brand
     if brand != self 
     BRANDS << brand
+    binding.pry
   end
   end
 
