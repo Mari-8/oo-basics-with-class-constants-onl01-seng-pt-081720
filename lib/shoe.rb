@@ -13,7 +13,7 @@ require 'pry'
     i += 1 
   end
 end
- 
+ binding.pry
   end
 
   def cobble
