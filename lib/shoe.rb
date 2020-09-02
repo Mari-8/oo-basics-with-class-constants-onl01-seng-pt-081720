@@ -7,9 +7,11 @@ require 'pry'
   def initialize(brand)
     dupe = []
     @brand = brand
+    while i = brand.length
     if brand != self 
       BRANDS << brand
   end
+end
   binding.pry
 end
  
