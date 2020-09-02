@@ -5,9 +5,10 @@ require 'pry'
   attr_reader :brand
 
   def initialize(brand)
+    dupe = []
     @brand = brand
     if brand == self 
-      nil
+      dupe << brand
     else BRANDS << brand
       binding.pry
   end
