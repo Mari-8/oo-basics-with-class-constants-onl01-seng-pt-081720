@@ -8,7 +8,7 @@ require 'pry'
     dupe = []
     @brand = brand
     if BRANDS.include?(brand)
-      puts "HI"
+      nil
     else 
       BRANDS << brand
       
