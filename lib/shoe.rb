@@ -12,7 +12,7 @@ require 'pry'
       BRANDS << brand
   end
 end
-  binding.pry
+  
 end
  
   
