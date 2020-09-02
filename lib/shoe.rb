@@ -7,7 +7,7 @@ require 'pry'
   def initialize(brand)
     dupe = []
     @brand = brand
-    if brands.include?(brand)
+    if brand.include?(brand)
       puts "HI"
     else 
       BRANDS << brand
