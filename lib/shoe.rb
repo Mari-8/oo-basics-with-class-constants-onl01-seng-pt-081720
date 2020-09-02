@@ -8,7 +8,7 @@ require 'pry'
     dupe = []
     @brand = brand
     if brand == self 
-      dupe << brand
+      brand << dupe
     else BRANDS << brand
       binding.pry
   end
