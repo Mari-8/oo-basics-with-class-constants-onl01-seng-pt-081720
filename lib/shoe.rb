@@ -9,6 +9,7 @@ require 'pry'
     
     until brand != self 
     BRANDS << brand
+    binding.pry
   end
 end
  
