@@ -9,7 +9,7 @@ require 'pry'
     if brand != self 
     BRANDS << brand
   end
-  BRANDS
+  
   end
 
   def cobble
