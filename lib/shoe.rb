@@ -6,6 +6,7 @@ require 'pry'
 
   def initialize(brand)
     @brand = brand
+    if brand != "nike"
     BRANDS << brand
   end
 
