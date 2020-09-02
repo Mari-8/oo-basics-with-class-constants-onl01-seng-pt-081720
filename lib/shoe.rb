@@ -7,7 +7,7 @@ require 'pry'
   def initialize(brand)
     @brand = brand
     i = 0
-    while i < brand
+    while i < brand.length
     if brand != self 
     BRANDS << brand
     i += 1 
