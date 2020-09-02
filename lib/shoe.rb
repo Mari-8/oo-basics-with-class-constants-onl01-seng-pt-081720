@@ -6,7 +6,7 @@ require 'pry'
 
   def initialize(brand)
     @brand = brand
-    if brand != ("nike, ")
+    if brand != self 
     BRANDS << brand
   end
 
