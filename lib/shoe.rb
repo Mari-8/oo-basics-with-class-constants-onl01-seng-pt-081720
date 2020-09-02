@@ -7,12 +7,11 @@ require 'pry'
   def initialize(brand)
     dupe = []
     @brand = brand
-    while i = brand.length
     until brand == self 
       BRANDS << brand
   end
 end
-  
+  BRANDS
 end
  
   
